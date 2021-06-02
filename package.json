@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
