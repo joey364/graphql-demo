@@ -1,2 +1,2 @@
 # GraphQL demo
-Demo api with GraphQL
+Simple GraphQL server using `express-graphql`
