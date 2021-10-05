@@ -1,3 +1,4 @@
+const { authors, books } = require("./data");
 const {
   GraphQLObjectType,
   GraphQLInt,
@@ -5,7 +6,6 @@ const {
   GraphQLList,
   GraphQLString,
 } = require("graphql");
-const { authors, books } = require("./data");
 
 const AuthorType = new GraphQLObjectType({
   name: "Author",

@@ -1,3 +1,5 @@
+const { authors, books } = require("./data");
+const { AuthorType, BookType } = require("./types");
 const {
   GraphQLSchema,
   GraphQLObjectType,
@@ -6,8 +8,6 @@ const {
   GraphQLList,
   GraphQLString,
 } = require("graphql");
-const { authors, books } = require("./data");
-const { AuthorType, BookType } = require("./types");
 
 const RootQueryType = new GraphQLObjectType({
   name: "Query",
