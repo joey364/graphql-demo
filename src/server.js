@@ -13,5 +13,5 @@ app.use(
 );
 
 app.listen(PORT, () => {
-  console.log(`Server is up and running on ${PORT} `);
+  console.log(`Server is up and running on ${PORT}/graphql`);
 });
